@@ -1,0 +1,6 @@
+a=[]
+n=int(input("Enter Range: "))
+for i in range(0,n):
+    a.append(i)
+print(a)
+print((a)[-1],(a)[-2])
