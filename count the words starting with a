@@ -1,0 +1,9 @@
+str = "An apple is an apple to be taken by the advice of a doctor"
+words = str.split()
+
+count = 0
+for word in words:
+    if word.lower().startswith('a'):
+        count += 1
+
+print("Number of words 'a':",count)
