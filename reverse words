@@ -1,0 +1,5 @@
+string = "my country is india"
+words = string.split()
+reversed_string = " ".join(reversed(words))
+
+print(reversed_string)
